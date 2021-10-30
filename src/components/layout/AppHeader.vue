@@ -1,6 +1,13 @@
 <template>
   <div class="app-layout-header">
-    AppHeader
+    <a-menu>
+      <a-menu-item key="mail">
+        <template #icon>
+          <mail-outlined />
+        </template>
+        Navigation One
+      </a-menu-item>
+    </a-menu>
   </div>
 </template>
 
